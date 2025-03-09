@@ -17,7 +17,17 @@ PageTitle.css = `
 .page-title {
   font-size: 1.75rem;
   margin: 0;
+  display: flex;
+  align-items: center;
+  text-shadow: 0px 0px 1.5px rgba(108, 41, 255, 0.6);
+  gap: 0.5rem;
+}
+
+.page-title a {
+  flex: 1;
 }
 `
+
+
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor

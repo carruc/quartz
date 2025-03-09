@@ -8,4 +8,6 @@ FROM node:22-slim
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .
+RUN ["node", "-v"]
+RUN ["npm", "-v"]
 CMD ["npx", "quartz", "build", "--serve"]

@@ -222,9 +222,9 @@ export default (() => {
             return resource
           }
         })}
+        <script src="https://kit.fontawesome.com/2d43015244.js" crossorigin="anonymous"></script>
       </head>
     )
   }
-
   return Head
 }) satisfies QuartzComponentConstructor

@@ -38,6 +38,10 @@ export function pageResources(
       {
         content: joinSegments(baseDir, "index.css"),
       },
+      {
+        content: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+        spaPreserve: true,
+      },
       ...staticResources.css,
     ],
     js: [

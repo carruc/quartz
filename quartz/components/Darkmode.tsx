@@ -18,7 +18,7 @@ const Darkmode: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) 
         x="0px"
         y="0px"
         viewBox="0 0 35 35"
-        style="enable-background:new 0 0 35 35"
+        style={`enable-background:new 0 0 35 35; fill: #ffb703; text-shadow: 0px 0px 1px rgba(255, 197, 51, 0.5)`}
         xmlSpace="preserve"
         aria-label={i18n(cfg.locale).components.themeToggle.darkMode}
       >
@@ -33,7 +33,7 @@ const Darkmode: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) 
         x="0px"
         y="0px"
         viewBox="0 0 100 100"
-        style="enable-background:new 0 0 100 100"
+        style="enable-background:new 0 0 100 100; text-shadow: 0px 0px 4px rgba(255, 255, 255, 1)`"
         xmlSpace="preserve"
         aria-label={i18n(cfg.locale).components.themeToggle.lightMode}
       >
@@ -46,5 +46,15 @@ const Darkmode: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) 
 
 Darkmode.beforeDOMLoaded = darkmodeScript
 Darkmode.css = styles
+
+// Add custom CSS for alignment
+Darkmode.css += `
+.darkmode {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  height: 2rem;
+}`
 
 export default (() => Darkmode) satisfies QuartzComponentConstructor
