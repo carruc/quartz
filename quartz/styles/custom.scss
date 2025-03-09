@@ -2,149 +2,10 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-
 h1.article-title {
   font-size: 2.5rem;  // Increase this value to make the title bigger
   margin-bottom: 1rem; // Optional: adjust spacing below the title
   line-height: 1.2;    // Optional: adjust line height for better readability
-}
-
-// Background animation
-@keyframes moveBackground {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes hero-gradient-animation {
-  0% {
-    --s-start-0: 9%;
-    --s-end-0: 55%;
-    --x-0: 85%;
-    --y-0: 80%;
-    --x-1: 60%;
-    --s-start-1: 5%;
-    --s-end-1: 72%;
-    --y-1: 24%;
-    --y-2: 82%;
-    --x-2: 13%;
-    --s-start-2: 5%;
-    --s-end-2: 52%;
-    --y-3: 7%;
-    --x-3: 24%;
-    --s-start-3: 13%;
-    --s-end-3: 68%;
-  }
-  100% {
-    --s-start-0: 9%;
-    --s-end-0: 55%;
-    --x-0: 31%;
-    --y-0: 94%;
-    --x-1: 2%;
-    --s-start-1: 5%;
-    --s-end-1: 72%;
-    --y-1: 25%;
-    --y-2: 20%;
-    --x-2: 98%;
-    --s-start-2: 5%;
-    --s-end-2: 52%;
-    --y-3: 92%;
-    --x-3: 95%;
-    --s-start-3: 13%;
-    --s-end-3: 68%;
-  }
-}
-
-// CSS Properties definitions
-@property --s-start-0 { syntax: '<percentage>'; inherits: false; initial-value: 9%; }
-@property --s-end-0 { syntax: '<percentage>'; inherits: false; initial-value: 55%; }
-@property --x-0 { syntax: '<percentage>'; inherits: false; initial-value: 85%; }
-@property --y-0 { syntax: '<percentage>'; inherits: false; initial-value: 80%; }
-@property --x-1 { syntax: '<percentage>'; inherits: false; initial-value: 60%; }
-@property --s-start-1 { syntax: '<percentage>'; inherits: false; initial-value: 5%; }
-@property --s-end-1 { syntax: '<percentage>'; inherits: false; initial-value: 72%; }
-@property --y-1 { syntax: '<percentage>'; inherits: false; initial-value: 24%; }
-@property --y-2 { syntax: '<percentage>'; inherits: false; initial-value: 82%; }
-@property --x-2 { syntax: '<percentage>'; inherits: false; initial-value: 13%; }
-@property --s-start-2 { syntax: '<percentage>'; inherits: false; initial-value: 5%; }
-@property --s-end-2 { syntax: '<percentage>'; inherits: false; initial-value: 52%; }
-@property --y-3 { syntax: '<percentage>'; inherits: false; initial-value: 7%; }
-@property --x-3 { syntax: '<percentage>'; inherits: false; initial-value: 24%; }
-@property --s-start-3 { syntax: '<percentage>'; inherits: false; initial-value: 13%; }
-@property --s-end-3 { syntax: '<percentage>'; inherits: false; initial-value: 68%; }
-
-// Add noise animation
-@keyframes noise {
-  0% { transform: translate(0,0) }
-  10% { transform: translate(-5%,-5%) }
-  20% { transform: translate(-10%,5%) }
-  30% { transform: translate(5%,-10%) }
-  40% { transform: translate(-5%,15%) }
-  50% { transform: translate(-10%,5%) }
-  60% { transform: translate(15%,0) }
-  70% { transform: translate(0,10%) }
-  80% { transform: translate(-15%,0) }
-  90% { transform: translate(10%,5%) }
-  100% { transform: translate(5%,0) }
-}
-
-body {
-  &::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    opacity: 0.05;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1799 1799' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-    z-index: 1;
-  }
-
-  &[data-theme="light"] {
-    --x-0: 85%;
-    --y-0: 80%;
-    --x-1: 60%;
-    --y-1: 24%;
-    --y-2: 82%;
-    --x-2: 13%;
-    --y-3: 7%;
-    --x-3: 24%;
-    background-color: var(--light);
-    background-image: 
-      radial-gradient(circle at var(--x-0) var(--y-0), color.adjust(#f2f2f2, $lightness: -15%) var(--s-start-0), transparent var(--s-end-0)),
-      radial-gradient(circle at var(--x-1) var(--y-1), color.adjust(#f2f2f2, $lightness: -20%) var(--s-start-1), transparent var(--s-end-1)),
-      radial-gradient(circle at var(--x-2) var(--y-2), color.adjust(#f2f2f2, $lightness: -12%) var(--s-start-2), transparent var(--s-end-2)),
-      radial-gradient(circle at var(--x-3) var(--y-3), color.adjust(#f2f2f2, $lightness: -18%) var(--s-start-3), transparent var(--s-end-3));
-    animation: hero-gradient-animation 10s linear infinite alternate;
-    background-blend-mode: normal, normal, normal, normal;
-  }
-
-  &[data-theme="dark"] {
-    --x-0: 85%;
-    --y-0: 80%;
-    --x-1: 60%;
-    --y-1: 24%;
-    --y-2: 82%;
-    --x-2: 13%;
-    --y-3: 7%;
-    --x-3: 24%;
-    background-color: var(--light);
-    background-image: 
-      radial-gradient(circle at var(--x-0) var(--y-0), color.adjust(#161618, $lightness: 15%) var(--s-start-0), transparent var(--s-end-0)),
-      radial-gradient(circle at var(--x-1) var(--y-1), color.adjust(#161618, $lightness: 20%) var(--s-start-1), transparent var(--s-end-1)),
-      radial-gradient(circle at var(--x-2) var(--y-2), color.adjust(#161618, $lightness: 12%) var(--s-start-2), transparent var(--s-end-2)),
-      radial-gradient(circle at var(--x-3) var(--y-3), color.adjust(#161618, $lightness: 18%) var(--s-start-3), transparent var(--s-end-3));
-    animation: hero-gradient-animation 10s linear infinite alternate;
-    background-blend-mode: normal, normal, normal, normal;
-  }
 }
 
 // Gray text styles in different sizes
@@ -164,4 +25,8 @@ body {
   color: #777777;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05);
   font-size: 120%;
+}
+
+.half-break {
+  margin-bottom: 0.25em;  // This adds half a line height worth of space below the element
 }
