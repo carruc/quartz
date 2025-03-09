@@ -1,5 +1,5 @@
 ---
-title: Pietro's Resume
+title: 📑 Pietro's Resume
 date: 2025-03-08
 ---
 

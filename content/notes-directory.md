@@ -1,5 +1,5 @@
 ---
-title: Notes Directory
+title: 📚 Notes Directory
 date: 2025-03-08
 ---
 
