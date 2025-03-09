@@ -146,3 +146,22 @@ body {
     background-blend-mode: normal, normal, normal, normal;
   }
 }
+
+// Gray text styles in different sizes
+.small-gray {
+  color: #777777;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05);
+  font-size: 80%;
+}
+
+.normal-gray {
+  color: #777777;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05);
+  font-size: 100%;
+}
+
+.big-gray {
+  color: #777777;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05);
+  font-size: 120%;
+}
