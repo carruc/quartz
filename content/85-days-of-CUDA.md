@@ -1,5 +1,5 @@
 ---
-title: 💻85 days of CUDA
+title: 💻 85 days of CUDA
 date: 2025-03-10
 ---
 #### First week: Learning the basics
