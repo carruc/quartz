@@ -2,7 +2,7 @@
 title: 💻 85 days of CUDA
 date: 2025-03-10
 ---
-I'm documenting my `85 days of CUDA` challenge right here! At the [[85-days-of-cuda.md#Library Integration|end]] of the page, you can see some possible real-world projects to apply the knowledge gained. 
+I'm documenting my `85 days of CUDA` challenge right here! At the [[85-days-of-CUDA.md#Library Integration|end]] of the page, you can see some possible real-world projects to apply the knowledge gained. 
 
 For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=readme-ov-file#gpu-100-days-learning-journey)'s and [cata](https://github.com/1y33/100Days?tab=readme-ov-file#project-progress-and-tasks)'s repos. Here's the "[leaderboard](https://github.com/hkproj/100-days-of-gpu/blob/main/CUDA.md#100-days-of-cuda-challenge)"!
 
