@@ -1,3 +1,5 @@
+Using this preset as personal blog/site/resume/universe! Please support jzha0's and their contributor's amazing work.
+
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
