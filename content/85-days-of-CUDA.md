@@ -3,7 +3,13 @@ title: 💻 85 days of CUDA
 date: 2025-03-10
 ---
 #### First week: Learning the basics
-- [ ] `Day 1:` Vector addition (Ch3.2 Kernel Functions)
+- [x] `Day 1:` Vector addition (Ch3.2 Kernel Functions)
+    ```sh
+    carruc@carruc-mint:~/repos/85days-of-cuda/day1-vadd$ ./vectorAdd 
+    vectorAdd( num_elems = 10000 )
+    vAdd: CUDA kernel launch with 40 blocks of 256 threads
+    vAdd: Test accomplished
+    ```
 - [ ] `Day 2:` Device properties report (Ch4.1 Hardware Architecture)  
 - [ ] `Day 3:` Matrix transpose optimization (Ch5.3 Memory Coalescing)
 - [ ] `Day 4:` Function type demonstration (Ch6.1 Function Qualifiers)
