@@ -11,7 +11,7 @@ For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=read
 # Schedule
 ## Introduction to CUDA and Parallel Computing
 - [x] `Day 1`: Vector Addition (Ch 2.2-2.7) > [commit](https://github.com/carruc/85-days-of-CUDA/commit/89998af3f06f36aa83bd67bbac838f390d3ce727)
-- [ ] `Day 2`: Device Properties Report (Ch 4.8) > [commit](https://github.com/carruc/85-days-of-CUDA/commit/6b2f81a88dbe0b11559af74b2e017f67cc472756)
+- [x] `Day 2`: Device Properties Report (Ch 4.8) > [commit](https://github.com/carruc/85-days-of-CUDA/commit/6b2f81a88dbe0b11559af74b2e017f67cc472756)
 - [ ] `Day 3`: CUDA Program Structure & Compilation (Ch 2.2, 2.7)
 
 ## Memory Management Fundamentals
