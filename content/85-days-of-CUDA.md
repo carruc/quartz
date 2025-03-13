@@ -7,37 +7,38 @@ I'm documenting my `85 days of CUDA` challenge right here! At the [[85-days-of-C
 For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=readme-ov-file#gpu-100-days-learning-journey)'s and [cata](https://github.com/1y33/100Days?tab=readme-ov-file#project-progress-and-tasks)'s repos. Here's the "[leaderboard](https://github.com/hkproj/100-days-of-gpu/blob/main/CUDA.md#100-days-of-cuda-challenge)"!
 
 ---
+
 # Schedule
 ## Introduction to CUDA and Parallel Computing
-- [ ] `Day 1`: Vector Addition (Ch 2.2-2.7) - Your first CUDA program
-- [ ] `Day 2`: Device Properties Report (Ch 4.8) - Understanding GPU capabilities
-- [ ] `Day 3`: CUDA Program Structure & Compilation (Ch 2.2, 2.7) - Deepening understanding of the basics
+- [x] `Day 1`: Vector Addition (Ch 2.2-2.7) > [commit](https://github.com/carruc/85-days-of-CUDA/commit/89998af3f06f36aa83bd67bbac838f390d3ce727)
+- [ ] `Day 2`: Device Properties Report (Ch 4.8)
+- [ ] `Day 3`: CUDA Program Structure & Compilation (Ch 2.2, 2.7)
 
 ## Memory Management Fundamentals
-- [ ] `Day 4`: Memory Transfer Patterns (Ch 2.4, 5.2) - Host-device data movement
-- [ ] `Day 5`: Simple Array Transformations (Ch 2.5-2.6) - Basic kernel operations
-- [ ] `Day 6`: Error Handling in CUDA - Building robust applications
+- [ ] `Day 4`: Memory Transfer Patterns (Ch 2.4, 5.2) - Host-device
+- [ ] `Day 5`: Simple Array Transformations (Ch 2.5-2.6)
+- [ ] `Day 6`: Error Handling in CUDA
 - [ ] `Day 7`: Memory Hierarchy Overview (Ch 5.2) - Introduction to GPU memory types
 
 ## Thread Organization
 - [ ] `Day 8`: Thread Indexing and Organization (Ch 2.5, 3.1) - Understanding thread hierarchy
-- [ ] `Day 9`: 1D Stencil Operations (Ch 8.2) - Simple neighbor-based computations
+- [ ] `Day 9`: 1D Stencil Operations (Ch 8.2)
 - [ ] `Day 10`: Multidimensional Grids (Ch 3.1-3.2) - Working with 2D/3D data
 
 ## Matrix Operations
 - [ ] `Day 11`: Matrix Addition (Ch 3.2) - 2D thread organization
 - [ ] `Day 12`: Matrix Transpose (Ch 5.3, 6.1) - Memory access patterns
-- [ ] `Day 13`: Basic Matrix Multiplication (Ch 3.4) - Simple implementation
-- [ ] `Day 14`: Image Blur Implementation (Ch 3.3) - Practical application
+- [ ] `Day 13`: Basic Matrix Multiplication (Ch 3.4)
+- [ ] `Day 14`: Image Blur Implementation (Ch 3.3)
 
 ## Function Types and Execution Control
-- [ ] `Day 15`: Function Type Demonstration (Device, Host, Global) - Understanding CUDA function qualifiers
-- [ ] `Day 16`: Control Divergence (Ch 4.5) - Impact on performance
-- [ ] `Day 17`: Warp Execution Model (Ch 4.4) - Understanding SIMD execution
+- [ ] `Day 15`: Function Type Demonstration (Device, Host, Global) - Function qualifiers
+- [ ] `Day 16`: Control Divergence (Ch 4.5)
+- [ ] `Day 17`: Warp Execution Model (Ch 4.4) - SIMD execution
 
 ## Basic Optimization Techniques
 - [ ] `Day 18`: Boundary Condition Handling (Ch 5.5) - Robust kernel design
-- [ ] `Day 19`: Thread Coarsening Intro (Ch 6.3) - Work per thread
+- [ ] `Day 19`: Thread Coarsening Intro (Ch 6.3)
 - [ ] `Day 20`: Memory Coalescing Basics (Ch 6.1) - Efficient memory access
 
 ## Shared Memory
@@ -48,37 +49,37 @@ For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=read
 
 ## Specialized Memory Types
 - [ ] `Day 25`: Constant Memory Basics (Ch 7.3) - Read-only cached memory
-- [ ] `Day 26`: Constant Memory Convolution (Ch 7.3-7.4) - Application to image processing
+- [ ] `Day 26`: Constant Memory Convolution (Ch 7.3-7.4)
 - [ ] `Day 27`: Texture Memory Basics - Benefits for spatial locality
-- [ ] `Day 28`: Unified Memory Introduction - Simplified memory management
+- [ ] `Day 28`: Unified Memory Introduction
 
 ## Performance Analysis
 - [ ] `Day 29`: Occupancy Calculation (Ch 4.7, 5.6) - Understanding resource limitations
 - [ ] `Day 30`: Latency Hiding Techniques (Ch 6.2) - Improving throughput
-- [ ] `Day 31`: Performance Profiling Basics - Using NVIDIA tools
+- [ ] `Day 31`: Performance Profiling Basics
 
 ## Reduction and Scan Patterns
 - [ ] `Day 32`: Basic Parallel Reduction (Ch 10.2-10.3) - Summing arrays efficiently
-- [ ] `Day 33`: Optimized Reduction (Ch 10.4-10.7) - Minimizing divergence
+- [ ] `Day 33`: Optimized Reduction (Ch 10.4-10.7) 
 - [ ] `Day 34`: Prefix Sum Introduction (Ch 11.1-11.2) - Kogge-Stone algorithm
 - [ ] `Day 35`: Work-Efficient Scan (Ch 11.3-11.5) - Brent-Kung algorithm
 
 ## Image Processing Applications
-- [ ] `Day 36`: Grayscale Image Processing (Ch 3.3) - Simple image transformations
+- [ ] `Day 36`: Grayscale Image Processing (Ch 3.3)
 - [ ] `Day 37`: Edge Detection Filters (Ch 7.2) - Convolution applications
 - [ ] `Day 38`: Histogram Calculation (Ch 9.2-9.3) - Using atomic operations
 - [ ] `Day 39`: Histogram Optimization (Ch 9.4-9.6) - Advanced techniques
 
 ## Synchronization and Atomics
-- [ ] `Day 40`: Block Synchronization (Ch 4.3) - Coordinating threads
-- [ ] `Day 41`: Basic Atomic Operations (Ch 9.2) - Thread-safe updates
-- [ ] `Day 42`: Atomic Optimization Strategies (Ch 9.4-9.6) - Reducing contention
+- [ ] `Day 40`: Block Synchronization (Ch 4.3)
+- [ ] `Day 41`: Basic Atomic Operations (Ch 9.2)
+- [ ] `Day 42`: Atomic Optimization Strategies (Ch 9.4-9.6)
 
 ## Streams and Concurrency
 - [ ] `Day 43`: CUDA Streams Basics (Ch 20.3-20.4) - Asynchronous operations
 - [ ] `Day 44`: Stream Concurrency Patterns (Ch 20.5) - Overlapping execution
-- [ ] `Day 45`: Multi-GPU Programming Intro - Scaling to multiple devices
-- [ ] `Day 46`: Asynchronous Memory Operations - Overlapping data transfer and computation
+- [ ] `Day 45`: Multi-GPU Programming Intro
+- [ ] `Day 46`: Asynchronous Memory Operations
 
 ## Dynamic Parallelism and Advanced Patterns
 - [ ] `Day 47`: Dynamic Parallelism Basics (Ch 21.2) - Launching kernels from kernels
@@ -95,8 +96,8 @@ For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=read
 
 ## CUDA Libraries and Integration
 - [ ] `Day 56`: cuBLAS Introduction - Basic linear algebra
-- [ ] `Day 57`: cuBLAS Matrix Operations - Advanced usage
-- [ ] `Day 58`: cuFFT Basics - Fast Fourier transforms
+- [ ] `Day 57`: cuBLAS Matrix Operations
+- [ ] `Day 58`: cuFFT Basics
 - [ ] `Day 59`: Thrust Library Introduction - High-level parallel algorithms
 - [ ] `Day 60`: Python Integration with CUDA - PyCUDA or Numba
 
@@ -104,11 +105,8 @@ For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=read
 - [ ] `Day 61`: Deep Learning Basics with CUDA (Ch 16.1-16.2) - CNN fundamentals
 - [ ] `Day 62`: Implementing a Simple CNN Layer (Ch 16.3) - CUDA inference kernel
 - [ ] `Day 63`: Scientific Computing Project - MRI Reconstruction (Ch 17) or Electrostatic Potential (Ch 18)
-- [ ] `Day 64`: Open Source Contribution Planning - Identifying projects to contribute to
-- [ ] `Day 65`: Future of GPU Computing (Ch 22.5, 23.2) - Emerging trends and technologies
-
----
-Answer from Perplexity: pplx.ai/share
+- [ ] `Day 64`: Open Source Contribution Planning
+- [ ] `Day 65`: Future of GPU Computing (Ch 22.5, 23.2)
 
 ---
 
