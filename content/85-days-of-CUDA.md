@@ -1,6 +1,6 @@
 ---
-title:` 💻 85 days of CUDA
-date:` 2025-03-10
+title: 💻 85 days of CUDA
+date: 2025-03-10
 ---
 I'm documenting my `85 days of CUDA` challenge right here! At the [[85-days-of-CUDA.md#Projects|end]] of the page, you can see some possible real-world projects to apply the knowledge gained. 
 
