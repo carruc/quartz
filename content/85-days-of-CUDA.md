@@ -15,7 +15,7 @@ For inspiration, check [hamdi](https://github.com/a-hamdi/GPU/tree/main?tab=read
 - [x] `Day 3`: CUDA Program Structure & Compilation (Ch 2.2, 2.7) > [commit](https://github.com/carruc/85-days-of-CUDA/commit/268601d57310bd5adff7d09e331e7e18b3056cd6)
 
 ## Memory Management Fundamentals
-- [ ] `Day 4`: Memory Transfer Patterns (Ch 2.4, 5.2) - Host-device
+- [x] `Day 4`: Memory Transfer Patterns (Ch 2.4, 5.2) - Host-device
 - [ ] `Day 5`: Simple Array Transformations (Ch 2.5-2.6)
 - [ ] `Day 6`: Error Handling in CUDA
 - [ ] `Day 7`: Memory Hierarchy Overview (Ch 5.2) - Introduction to GPU memory types
