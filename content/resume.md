@@ -5,7 +5,9 @@ date: 2025-03-08
 
 # About myself
 
-I'm Pietro (_also known as carruc_), a human currently based in Milan, Italy. I'm trying to build a `computer engineer`/`AI research scientist` hybrid profile - focusing both on developing a deep understanding of computational layers, and mastering the calculus/algebra/stats jargon part.
+I'm Pietro (_also known as carruc_), a human currently based in Milan, Italy. 
+
+I'm trying to build a `computer architecture engineer`/`AI research scientist` hybrid profile - focusing both on developing a deep understanding of computational layers, and mastering the calculus/algebra/stats jargon part.
 
 My research ambitions include `Machine Learning`, `Energy-Efficient AI`, `Science-Applied Generative AI`, `DSAs`, `Neuromorphic Computing`, `Sustainable Materials`.
 
