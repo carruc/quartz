@@ -1,4 +1,4 @@
-Using this preset as personal blog/site/resume/universe! Please support jzha0's and their contributor's amazing work.
+Using this preset as personal blog/site/resume/universe! Please support jzha0's and their contributors' amazing work.
 
 # Quartz v4
 
