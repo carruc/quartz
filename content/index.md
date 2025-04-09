@@ -13,6 +13,8 @@ CompSci & Engineering MSc <a href="https://www.polimi.it/">@PoliMi</a>, X-AI Pro
 </div>
 
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/pietro-ixg/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+<div class="calendly-inline-widget" 
+     data-url="https://calendly.com/pietro-ixg/30min?hide_gdpr_banner=1&background_color=f2f2f2&text_color=2b2b2b&primary_color=6c29ff" 
+     style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
