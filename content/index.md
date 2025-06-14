@@ -10,7 +10,7 @@ CompSci & Engineering MSc <a href="https://www.polimi.it/">@PoliMi</a>, X-AI Pro
 </div>
 <br>
 👈 Check my resume right here! 
-<br>
+
 You can find me on <a href="https://www.linkedin.com/in/pietro-carrucciu/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>, <a href="https://github.com/carruc">GitHub <i class="fa-brands fa-github"></i></a> and <a href="https://instagram.com/p_carruc">Instagram <i class="fa-brands fa-instagram"></i></a>. 
 
 For any serious inquiry: <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a>, or book an appointment on right here 👇!
@@ -19,8 +19,10 @@ For any serious inquiry: <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.
 
 <br>
 
- <!-- Cal.com Inline Embed -->
-<div style="width:100%;height:600px;" id="my-cal-inline"></div>
+<!-- Cal.com Inline Embed -->
+<div style="width:100%;height:600px;border:1px solid #ccc;" id="my-cal-inline">
+  <p>Loading calendar...</p>
+</div>
 
 <script type="text/javascript">
 (function (C, A, L) { 
@@ -48,14 +50,17 @@ For any serious inquiry: <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.
     } 
     p(cal, ar); 
   }; 
-})(window, "https://app.cal.com/embed/embed.js", "init");
+})(window, "https://cal.com/embed/embed.js", "init");
 
-Cal("init", "default", {
-  origin: "https://cal.com"
-});
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', function() {
+  Cal("init", "default", {
+    origin: "https://cal.com"
+  });
 
-Cal("inline", {
-  elementOrSelector: "#my-cal-inline",
-  calLink: "carruc"
+  Cal("inline", {
+    elementOrSelector: "#my-cal-inline",
+    calLink: "carruc"
+  });
 });
 </script>
