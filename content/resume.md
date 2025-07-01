@@ -5,7 +5,7 @@ date: 2025-03-08
 
 # About myself
 
-I'm Pietro (_also known as carruc_), a human currently based in Milan, Italy. 
+I'm Pietro (_also known as carruc_), a human currently based in Milan, Italy.
 
 I'm trying to build a `computer architecture engineer`/`AI research scientist` hybrid profile - focusing both on developing a deep understanding of computational layers, and mastering the calculus/algebra/stats jargon part.
 
@@ -16,6 +16,7 @@ Currently studying for a CompSci & Engineering Master's at [PoliMi](https://www.
 Beyond academics, I'm passionate about neuroscience, reading, music-making and climate change. I've taken part to a philosophy study group for the last 4 years, which is a gift that keeps on giving. 
 
 I speak fluent Italian, English, and I'm studying for the German A1 certificate.
+<br>
 
 # Education
 - `Sep2024 - now` __[Politecnico di Milano](https://www.polimi.it/)__, MSc in Computer Science and Engineering
@@ -32,7 +33,7 @@ I speak fluent Italian, English, and I'm studying for the German A1 certificate.
         <div class="small-gray"> Focus on calculus, control systems, electronics, industrial systems design.<br> _Activities and societies:_ Math Competitions, First Lego League, Student's Rep, Class Rep, High School COVID19 Awareness Short winner, Student's Climate Group.</div>
 
 # Experience
-- `11/2024 - now` Student Researcher @ __[PoliMi Data Scientists](https://polimidatascientists.it/)__ 
+- `11/2024 - now` Graduate Student Researcher @ __[PoliMi Data Scientists](https://polimidatascientists.it/)__ 
         <div class="small-gray">Researching state-of-art and developing an automated explainability pipeline for Image Recognition CNNs.</div>
 <div class="half-break"></div>
 
