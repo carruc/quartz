@@ -1,6 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import CalEmbed from "./quartz/components/CalEmbed"
+import CalEmbed from "./quartz/components/CalEmbed" // <-- Import your new component
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -18,7 +18,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    CalEmbed(), // <-- Add this line
+    CalEmbed(), // <-- Add CalEmbed here (top of content pages)
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -37,9 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
