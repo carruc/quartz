@@ -15,14 +15,12 @@ You can find me on <a href="https://www.linkedin.com/in/pietro-carrucciu/">Linke
 
 <br>
 
-For any serious inquiry:  
-<a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a>.
+For serious inquiries or casual chats, hit me up at <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a> or book a video call up there 👆
 
 <br>
 
-Also, make sure to join the  
-<a href="https://t.me/hackathonseu">Hackathons EU</a> telegram group to stay updated on the latest Hackathons in the greater European area.
+Also, make sure to join the <a href="https://t.me/hackathonseu">Hackathons EU</a> telegram group to stay updated on the latest Hackathons in the greater European area.
 
 <br>
 
-👈 Check my resume right here! And book a video call down here👇
+👈 Check my resume right here!
