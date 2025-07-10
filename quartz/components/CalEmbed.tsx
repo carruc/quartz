@@ -1,20 +1,12 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const CalEmbed: QuartzComponent = (props: QuartzComponentProps) => {
-  // Only render on the main page (index.md)
-  if (
-    props.fileData?.slug !== "index" &&
-    props.fileData?.filePath !== "index.md" &&
-    props.fileData?.filePath !== "content/index.md"
-  ) {
-    return null
-  }
-
+  // Your conditional logic here
   return (
     <div
       style={{
         width: "100%",
-        height: "470px", // Fixed height based on your 770x470 ratio
+        height: "470px",
         maxHeight: "470px",
         overflow: "hidden",
         border: "1px solid #e1e5e9",
