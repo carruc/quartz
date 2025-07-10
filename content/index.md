@@ -11,10 +11,7 @@ CompSci & Engineering MSc <a href="https://www.polimi.it/">@PoliMi</a>, X-AI Pro
 
 <br>
 
-You can find me on  
-<a href="https://www.linkedin.com/in/pietro-carrucciu/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>,  
-<a href="https://github.com/carruc">GitHub <i class="fa-brands fa-github"></i></a> and  
-<a href="https://instagram.com/p_carruc">Instagram <i class="fa-brands fa-instagram"></i></a>. I also write a very casual-but-nerdy newsletter on any topic I'm interested in (computing, philosophy, climate science, neurobiology, evolution, ...).
+You can find me on <a href="https://www.linkedin.com/in/pietro-carrucciu/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>,  <a href="https://github.com/carruc">GitHub <i class="fa-brands fa-github"></i></a> and  <a href="https://instagram.com/p_carruc">Instagram <i class="fa-brands fa-instagram"></i></a>. I also write a very casual-but-nerdy newsletter on any topic I'm interested in (computing, philosophy, climate science, neurobiology, evolution, ...) over at [Substack](https://substack.com/@carruc].
 
 <br>
 
@@ -23,13 +20,9 @@ For any serious inquiry:
 
 <br>
 
-For a quick chat, book over at [cal.com](https://cal.com/carruc/15min)!
-
-<br>
-
 Also, make sure to join the  
 <a href="https://t.me/hackathonseu">Hackathons EU</a> telegram group to stay updated on the latest Hackathons in the greater European area.
 
 <br>
 
-👈 Check my resume right here!
+👈 Check my resume right here! And book a video call down here👇
