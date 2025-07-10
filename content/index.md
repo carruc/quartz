@@ -11,11 +11,15 @@ CompSci & Engineering MSc <a href="https://www.polimi.it/">@PoliMi</a>, X-AI Pro
 <br>
 
 You can find me on <a href="https://www.linkedin.com/in/pietro-carrucciu/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>, <a href="https://github.com/carruc">GitHub <i class="fa-brands fa-github"></i></a> and <a href="https://instagram.com/p_carruc">Instagram <i class="fa-brands fa-instagram"></i></a>. 
+<br>
 
 For any serious inquiry: <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a>.
+<br>
 
-For a quick chat book a <a href="https://cal.com/carruc/15min">15 minute</a>, <a href="https://cal.com/carruc/30min">30 minute</a>, or <a href="https://cal.com/carruc/45min">45 minute</a> call!
+For a quick chat, book over at [cal.com](https://cal.com/carruc/15min)!
+<br>
 
 Also, make sure to join the <a href="https://t.me/hackathonseu">Hackathons EU</a> telegram group to stay updated on the latest Hackathons in the greater European area.
+<br>
 
 👈 Check my resume right here! 
