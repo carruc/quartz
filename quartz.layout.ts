@@ -7,22 +7,22 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    // This function will be called with the page's props
     (props) => {
-      // The main page is usually "index.md" or "/"
+      // Check if this is the main page (index.md)
       if (
         props.fileData?.slug === "index" ||
-        props.fileData?.slug === "" ||
-        props.fileData?.slug === undefined // fallback for root
+        props.fileData?.filePath === "index.md" ||
+        props.fileData?.filePath === "content/index.md"
       ) {
         return CalEmbed(props)
       }
       return null
-    },
+    }
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/carruc/quartz",
+      GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -30,6 +30,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    // Make sure CalEmbed is NOT here
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -64,4 +65,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
-
