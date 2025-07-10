@@ -6,22 +6,11 @@ import CalEmbed from "./quartz/components/CalEmbed"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    (props) => {
-      // Check if this is the main page (index.md)
-      if (
-        props.fileData?.slug === "index" ||
-        props.fileData?.filePath === "index.md" ||
-        props.fileData?.filePath === "content/index.md"
-      ) {
-        return CalEmbed(props)
-      }
-      return null
-    }
-  ],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
+      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -29,7 +18,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Make sure CalEmbed is NOT here
+    CalEmbed(), // This will only render on index.md due to the conditional logic
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
