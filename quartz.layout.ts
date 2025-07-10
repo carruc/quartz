@@ -1,12 +1,24 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import CalEmbed from "./quartz/components/CalEmbed" // <-- Import your new component
+import CalEmbed from "./quartz/components/CalEmbed"
 
-// components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    // This function will be called with the page's props
+    (props) => {
+      // The main page is usually "index.md" or "/"
+      if (
+        props.fileData?.slug === "index" ||
+        props.fileData?.slug === "" ||
+        props.fileData?.slug === undefined // fallback for root
+      ) {
+        return CalEmbed(props)
+      }
+      return null
+    },
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
