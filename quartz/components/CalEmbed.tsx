@@ -1,9 +1,26 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const CalEmbed: QuartzComponent = (props: QuartzComponentProps) => {
+  // Only render on the main page (index.md)
+  if (
+    props.fileData?.slug !== "index" &&
+    props.fileData?.filePath !== "index.md" &&
+    props.fileData?.filePath !== "content/index.md"
+  ) {
+    return null
+  }
+
   return (
     <div
-      style={{ width: "100%", height: "100%", overflow: "scroll" }}
+      style={{
+        width: "100%",
+        height: "470px", // Fixed height based on your 770x470 ratio
+        maxHeight: "470px",
+        overflow: "hidden",
+        border: "1px solid #e1e5e9",
+        borderRadius: "8px",
+        marginBottom: "2rem"
+      }}
       id="my-cal-inline-15min"
     ></div>
   )
@@ -44,4 +61,3 @@ CalEmbed.afterDOMLoaded = `
 `
 
 export default (() => CalEmbed) satisfies QuartzComponentConstructor
-
