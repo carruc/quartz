@@ -1,18 +1,9 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const CalEmbed: QuartzComponent = (props: QuartzComponentProps) => {
-  // Your conditional logic here
   return (
     <div
-      style={{
-        width: "100%",
-        height: "470px",
-        maxHeight: "470px",
-        overflow: "hidden",
-        border: "1px solid #e1e5e9",
-        borderRadius: "8px",
-        marginBottom: "2rem"
-      }}
+      style={{ width: "100%", height: "100%", overflow: "scroll" }}
       id="my-cal-inline-15min"
     ></div>
   )
