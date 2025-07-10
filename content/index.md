@@ -15,7 +15,7 @@ You can find me on <a href="https://www.linkedin.com/in/pietro-carrucciu/">Linke
 
 <br>
 
-For serious inquiries or casual chats, hit me up at <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a> or book a video call up there 👆
+For serious inquiries or casual chats, hit me up at <a href="mailto:pietro@carrucciu.com">pietro@carrucciu.com <i class="fa-brands fa-google"></i></a> or book a video call right there 👉
 
 <br>
 
