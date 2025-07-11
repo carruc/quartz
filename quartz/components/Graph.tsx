@@ -61,8 +61,15 @@ const defaultOptions: GraphOptions = {
 
 export default ((opts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
-    // Hide the Graph if the current file is index.md
-    if (fileData && fileData.filePath === "index.md") {
+    // More comprehensive check for homepage
+    const isHomepage = fileData && (
+      fileData.filePath === "index.md" || 
+      fileData.slug === "index" || 
+      fileData.slug === "" ||
+      fileData.filePath?.endsWith("index.md")
+    )
+    
+    if (isHomepage) {
       return null
     }
 
