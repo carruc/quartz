@@ -50,8 +50,12 @@ CalEmbed.afterDOMLoaded = `
     if (calElement) {
       if (isHomePage) {
         // Show calendar on homepage
+        calElement.style.display = "block";
         calElement.style.height = "100%";
+        calElement.style.width = "100%";
         calElement.style.overflow = "scroll";
+        calElement.style.margin = "0";
+        calElement.style.padding = "0";
         Cal("init", "15min", {origin:"https://app.cal.com"});
         Cal.ns["15min"]("inline", {
           elementOrSelector: "#my-cal-inline-15min",
@@ -60,10 +64,15 @@ CalEmbed.afterDOMLoaded = `
         });
         Cal.ns["15min"]("ui", { hideEventTypeDetails: false, layout: "month_view" });
       } else {
-        // Hide the calendar and remove space on all other pages
+        // Completely hide the calendar and remove ALL space on other pages
+        calElement.style.display = "none";
         calElement.style.height = "0";
+        calElement.style.width = "0";
+        calElement.style.margin = "0";
+        calElement.style.padding = "0";
+        calElement.style.border = "none";
         calElement.style.overflow = "hidden";
-        calElement.innerHTML = ""; // Clear content to avoid residual UI
+        calElement.innerHTML = ""; // Clear content
       }
     }
   }
