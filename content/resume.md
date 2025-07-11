@@ -3,20 +3,6 @@ title: 📑 Pietro's Resume
 date: 2025-03-08
 ---
 
-# About myself
-
-I'm Pietro (_also known as carruc_), a human currently based in Milan, Italy.
-
-I'm trying to build a `computer architecture engineer`/`AI research scientist` hybrid profile - focusing both on developing a deep understanding of computational layers, and mastering the calculus/algebra/stats jargon part.
-
-My research ambitions include `Machine Learning`, `Energy-Efficient AI`, `Science-Applied Generative AI`, `DSAs`, `Neuromorphic Computing`, `Sustainable Materials`.
-
-Currently studying for a CompSci & Engineering Master's at [PoliMi](https://www.polimi.it); hope I'll soon be doing it in [Tübingen](https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/) and [Chicago](https://catalog.uic.edu/gcat/colleges-schools/engineering/cs/) too.
-
-Beyond academics, I'm passionate about neuroscience, reading, music-making and climate change. I've taken part to a philosophy study group for the last 4 years, which is a gift that keeps on giving. 
-
-I speak fluent Italian, English, and I'm studying for the German A1 certificate.
-
 # Education
 - `Sep2024 - now` __[Politecnico di Milano](https://www.polimi.it/)__, MSc in Computer Science and Engineering
         <div class="small-gray"> Following a Data Science and AI oriented track. Taking part in the Leonardo project @ [NECSTLab](https://it.linkedin.com/company/necstlab).</div>
